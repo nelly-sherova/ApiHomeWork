@@ -13,7 +13,7 @@ namespace ApiHW.Db
         public QuotesContext (DbContextOptions<QuotesContext> options)
             :base (options)
         {
-            Database.EnsureCreated();
+            
         }
 
         protected override void OnModelCreating(ModelBuilder builder)
